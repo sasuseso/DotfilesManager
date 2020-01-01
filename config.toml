@@ -1,0 +1,13 @@
+[repo]
+repo = "https://github.com/sasuseso/dotfiles.git"
+
+[[dotfile]]
+name = ".vimrc"
+path = ".vimrc"
+software = "vim"
+
+[[dotfile]]
+name = ".bashrc"
+path = ".bashrc"
+software = "bash"
+hook = "source .bashrc"
