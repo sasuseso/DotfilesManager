@@ -11,3 +11,6 @@ name = ".bashrc"
 path = ".bashrc"
 software = "bash"
 hook = "source .bashrc"
+
+[disable]
+names = ["powerline"]

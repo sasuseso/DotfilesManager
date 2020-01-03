@@ -20,7 +20,7 @@ function symlink_dotfiles(config::Dict)
 								end
 end
 
-function parse_opts(args::Vector{String})
+function parse_opts()
 								s = ArgParseSettings("DOTMAN - Dotfiles Managemer")
 
 								@add_arg_table s begin
@@ -38,7 +38,7 @@ function parse_opts(args::Vector{String})
 																								default = "./config.toml"
 								end
 
-								parse_args(args, s)
+								parse_args(s)
 end
 
 end # module

@@ -12,6 +12,11 @@ has following keys.
 - path([String, String])
   - path whare file. relative path from cloned repo root. [original file, symlink]
 - hook(String)
-  - the shell command that you want to execute after deployed the file. you can use the keyword "{_*_FILE_*_}". it's will replace with the filename.
+  - the shell command that you want to execute after deployed the file. you can use the keyword "{\_\*\_FILE\_\*\_}". it's will replace with the filename.
 - sofware(String)
   - software that uses the file
+
+#### [disable]
+software config files that you dont want to deploy.
+- names (an array of String)
+  - software names that you wont use.
